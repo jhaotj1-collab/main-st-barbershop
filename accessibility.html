@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="is-preview">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibility · Main St Barbershop</title>
+  <meta name="description" content="Accessibility statement for the Main St Barbershop website.">
+  <meta name="theme-color" content="#14060a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="preview-bar" role="note"><span class="preview-bar__long">Design preview · Not the official Main St Barbershop website · Info from public listings, Nov 2026</span><span class="preview-bar__short">Design preview · Not the official shop website</span></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header is-scrolled">
+    <div class="site-header__inner wrap">
+      <a class="wordmark" href="index.html" aria-label="Main St Barbershop home">
+        <span class="wordmark__main">Main St</span>
+        <span class="wordmark__sub">Barbershop</span>
+      </a>
+      <div class="site-header__actions">
+        <a class="btn btn--ghost btn--sm legal-back" href="index.html">Back to the site</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="legal">
+    <div class="wrap legal__inner">
+      <h1>Accessibility</h1>
+      <p class="legal__updated">Last reviewed November 23, 2026</p>
+
+      <p>Main St Barbershop wants everyone to be able to use this website. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA.</p>
+
+      <h2>What we've done</h2>
+      <ul>
+        <li>Every part of the site works with a keyboard, with a clear focus outline and a "Skip to content" link.</li>
+        <li>Pages use real headings, landmarks, lists and tables so screen readers can move around them.</li>
+        <li>Text and buttons meet WCAG AA color contrast.</li>
+        <li>If your device is set to reduce motion, scroll animations are turned off and all content shows right away.</li>
+        <li>Anything that moves on its own, like the scrolling banners and the barber pole, can be stopped with the pause button at the top of the home page. Your choice is remembered. Nothing plays sound.</li>
+        <li>The site works when zoomed to 200% and on small screens.</li>
+        <li>The price estimate, fade picker and barber pole are extras. Everything they show is also available as plain text, and the estimate is announced to screen readers as it changes.</li>
+        <li>Links that open a new tab say so to screen readers.</li>
+      </ul>
+
+      <h2>Content we don't control</h2>
+      <p>Online booking happens on SQUIRE, and the optional map comes from Google. We can't fix accessibility problems on those services. If either one doesn't work for you, call <a href="tel:+19099068527">(909) 906-8527</a> and we'll book you over the phone or give you directions.</p>
+
+      <h2>Tell us about a problem</h2>
+      <p>If something on this site is hard to use, please let us know. Call <a href="tel:+19099068527">(909) 906-8527</a> or tell us in the shop at 101 S Main St, Suite B, Pomona. Tell us the page and what went wrong, and we'll work to fix it.</p>
+
+      <a class="btn btn--brass back" href="index.html">Back to the site</a>
+    </div>
+  </main>
+
+  <footer class="footer footer--slim">
+    <div class="wrap">
+      <div class="footer__base">
+        <p>© <span data-year>2026</span> Main St Barbershop · 101 S Main St, Suite B, Pomona, CA 91766 · <a href="tel:+19099068527">(909) 906-8527</a></p>
+        <ul role="list" class="footer__inline">
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="accessibility.html">Accessibility</a></li>
+          <li><button type="button" class="linklike" data-open-cookies>Cookie settings</button></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <div class="cookie" data-cookie role="dialog" aria-modal="false" aria-labelledby="cookie-title" aria-describedby="cookie-desc" hidden>
+    <svg class="cookie__art" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <path d="M32 4a28 28 0 1 0 28 29.5 8 8 0 0 1-9.6-8.8A8 8 0 0 1 40.5 15 8 8 0 0 1 36 4.3 28 28 0 0 0 32 4Z" fill="#d4a85a"/>
+      <g fill="#5a1120"><circle cx="22" cy="22" r="3.6"/><circle cx="18" cy="38" r="3"/><circle cx="31" cy="46" r="3.8"/><circle cx="44" cy="40" r="3"/><circle cx="30" cy="31" r="2.6"/></g>
+    </svg>
+    <div class="cookie__body">
+      <h2 class="cookie__title" id="cookie-title">Cookies? Barely.</h2>
+      <p class="cookie__text" id="cookie-desc">This site has no tracking and no ads. It only saves your choice on this device. The map is from Google and may set its own cookies if you turn it on. <a href="privacy.html#cookies">Privacy policy</a></p>
+      <p class="cookie__gpc" data-gpc hidden>Your browser sent a Global Privacy Control signal, so we've kept optional content off.</p>
+
+      <div class="cookie__prefs" data-cookie-prefs hidden>
+        <div class="toggle">
+          <span class="toggle__label"><strong>Essential</strong><span>Remembers this choice. Always on.</span></span>
+          <span class="toggle__fixed">Always on</span>
+        </div>
+        <label class="toggle">
+          <span class="toggle__label"><strong>Google Maps</strong><span>Shows the map in "Find us". Google may set cookies.</span></span>
+          <input type="checkbox" class="toggle__input" data-pref-maps>
+          <span class="toggle__switch" aria-hidden="true"></span>
+        </label>
+      </div>
+
+      <div class="cookie__actions">
+        <button type="button" class="btn btn--brass btn--sm" data-cookie-accept>Accept all</button>
+        <button type="button" class="btn btn--ghost btn--sm" data-cookie-reject>Essential only</button>
+        <button type="button" class="btn btn--text btn--sm" data-cookie-custom aria-expanded="false">Choose</button>
+        <button type="button" class="btn btn--brass btn--sm" data-cookie-save hidden>Save choices</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
